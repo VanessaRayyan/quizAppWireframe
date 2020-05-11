@@ -1,0 +1,52 @@
+body {
+    background-color: #4f7dee;
+    color: white;
+    margin: 0;
+}
+
+header {
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.counting {
+    list-style: none;
+    display: inline-flex;
+    padding-inline-start: 0;
+}
+
+.questionCounter {
+    padding-right: 15px;
+}
+
+form  {
+    font-family: fantasy;
+    font-size: large;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 320px;
+    color: black;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    padding-left: 50px;
+}
+
+form p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+    float: right;
+    font-family: fantasy;
+    font-size: large;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
